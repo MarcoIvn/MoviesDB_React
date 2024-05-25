@@ -1,0 +1,38 @@
+.topbar {
+  @apply bg-center bg-cover flex justify-between items-center w-full bg-[#794e9b] border-b-[8px] border-[#1ad2df];
+}
+
+.logo {
+  @apply items-center flex gap-[10px] m-[20px] ;
+}
+
+.logo a {
+  @apply text-white text-[30px] font-bold;
+}
+
+.routes, .auth-routes {
+  @apply mr-[40px] items-center flex h-full font-bold;
+    letter-spacing: 2px;
+}
+
+.routes li, .auth-routes li {
+  @apply ml-[30px] h-full flex items-center;
+}
+
+.routes li a, .auth-routes li a {
+  @apply text-white h-full px-[10px] flex items-center;
+}
+
+.routes li a:hover{
+  @apply text-[#1ad2df];
+}
+
+.auth-routes-btn{
+  @apply bg-[#1ad2df] px-[20px] py-[10px] rounded-[30px] cursor-pointer;
+}
+
+.auth-routes-btn:hover{
+  @apply bg-[#17b1bc];
+}
+
+

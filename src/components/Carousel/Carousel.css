@@ -1,0 +1,8 @@
+.carousel  {
+  @apply h-fit;
+}
+
+.carousel-title{
+  @apply text-[1.7rem] font-bold text-white m-[25px] ;
+}
+

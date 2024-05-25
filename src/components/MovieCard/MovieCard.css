@@ -1,0 +1,43 @@
+.movie-card {
+  @apply bg-[#a798d7] max-h-[450px] float-left overflow-hidden block relative  rounded-[15px] p-[10px] cursor-pointer;
+    margin: 0 20px 30px 0;
+    box-shadow: 4px 4px 5px rgb(0 0 0 / 22%);
+    scroll-behavior: smooth;
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.movie-card-poster {
+  @apply ml-0 w-[350px] min-w-full overflow-hidden;
+}
+
+.movie-card-details {
+  @apply bg-[#040051] rounded-[7px] absolute bottom-0 left-0 w-full h-auto opacity-[1];
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    transition: all .3s;
+    background: linear-gradient(0deg, #040051 20%, transparent);
+}
+.movie-card-title {
+  @apply p-[15px] table-cell w-full align-middle text-white;
+}
+.movie-card-info {
+  @apply text-white text-[25px] font-bold;
+}
+
+.movie-card-rating{
+  @apply ml-[10px] mb-[25px] text-white text-[13px] font-bold table uppercase;
+    text-shadow: none;
+    line-height: 6px;
+}
+
+.movie-card-rating::before {
+    content: '\2605'; /* Código de la estrella */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    @apply mr-[10px] text-[16px] font-bold text-white;
+}
+

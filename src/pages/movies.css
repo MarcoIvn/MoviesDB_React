@@ -1,0 +1,29 @@
+.movies-container {
+  @apply flex flex-wrap justify-center;
+}
+
+.title{
+  @apply text-[2rem] font-bold text-white ml-[25px] mt-[25px];
+}
+
+.movie-card {
+  @apply mb-[75px];
+}
+
+
+.buttons-container {
+  @apply mt-[25px] text-center mb-[20px];
+}
+
+.buttons-container button {
+  @apply px-[10px] py-[20px] mx-[10px] bg-[#3498db] text-white border-none rounded-[5px] cursor-pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+.buttons-container button:hover {
+  @apply bg-[#2980b9];
+}
+
+.buttons-container button:active {
+  transform: scale(0.95); 
+}

@@ -1,0 +1,4 @@
+.pill_container{
+  @apply bg-red-500 text-white p-[10px] rounded-[5px] inline-block m-[5px] cursor-pointer;
+  transition: all 0.3s;
+}
