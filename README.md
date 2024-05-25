@@ -24,7 +24,7 @@ git clone https://github.com/MarcoIvn/MoviesDB_React.git
 2. Navigate to the project directory:
 
 ```bash
-cd MoviesDB_Reac
+cd MoviesDB_React
 ```
 
 3. Install the required dependencies:
@@ -45,6 +45,8 @@ npm start
 
  
 ## Api key 
-    For the proyect you need an api key for MoviesDB called 'REACT_APP_API_KEY' in a .env file
+    For the proyect you need an api key for MoviesDB called 'REACT_APP_MDB_API_KEY' in a .env file
 
     replace it with yours
+
+    Also you need to set up a firebase project that use email/password authentication, where you need to replace REACT_APP_FIREBASE_API_KEY and REACT_APP_FIREBASE_PROJECT_ID with your current api key and project id
